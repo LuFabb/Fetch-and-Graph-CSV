@@ -18,11 +18,11 @@
       const data = await response.text();
 
 
-      const rows = data.split('\n').slice(1);
-      rows.forEach(elt => {
-        const row = elt.split(',');
-        const year = row[0];
-        const temp = row[1];
+      const table = data.split('\n').slice(1);
+      table.forEach(row => {
+        const columns = row.split(',');
+        const year = columns[0];
+        const temp = columns[1];
         console.log(year, temp);
       });
     }
