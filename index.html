@@ -11,6 +11,14 @@
    <script>
     //Data from https://data.giss.nasa.gov/gistemp/
     // Mean from: https://earthobservatory.nasa.gov/world-of-change/DecadalTemp
+    getData();
+
+    async function getData() {
+      const response = await fetch('test.csv');
+      const data = await response.text();
+      console.log(data);
+    }
+    
    </script>
 </body>
 </html>
