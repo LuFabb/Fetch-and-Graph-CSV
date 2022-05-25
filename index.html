@@ -13,6 +13,7 @@
    <script>
 
   const xlabels = [];
+  const ytemps = [];
   
   
   chartIt()
@@ -27,7 +28,7 @@
         labels: xlabels,
         datasets: [{
             label: 'Global Avarage Temperature',
-            data: [12, 19, 3, 5, 2, 3],
+            data: ytemps,
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
             ],
@@ -55,6 +56,7 @@
         const year = columns[0];
         xlabels.push(year)
         const temp = columns[1];
+        ytemps.push(temp)
         console.log(year, temp);
       });
     }
