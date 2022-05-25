@@ -1,6 +1,7 @@
 # Fetch-and-Graph-CSV
 Working with data and api's in Javascript.
 The Coding Train - Daniel Shiffman course.
+https://www.youtube.com/watch?v=RfMkdvN-23o&list=PLRqwX-V7Uu6YxDKpFzf_2D84p0cyk4T7X&index=4
 
 "This course is for aspiring developers who want to learn how to work with data in web applications."
 
