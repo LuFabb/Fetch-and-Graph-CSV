@@ -54,9 +54,9 @@
       table.forEach(row => {
         const columns = row.split(',');
         const year = columns[0];
-        xlabels.push(year)
+        xlabels.push(year);
         const temp = columns[1];
-        ytemps.push(temp)
+        ytemps.push(parseFloat(temp) + 14);
         console.log(year, temp);
       });
     }
